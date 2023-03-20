@@ -22,7 +22,7 @@ export function StoreItem({ id, name, price, imageUrl }: StoreItemProps) {
     <Card className="h-100">
       <Card.Img
         variant="top"
-        src={imageUrl}
+        src="../images/banana.jpg"
         height="200px"
         style={{ objectFit: "cover" }}
       />
